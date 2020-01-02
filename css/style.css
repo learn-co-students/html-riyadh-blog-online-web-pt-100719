@@ -24,6 +24,13 @@ body {
   background: rgba(255,255,255,.85);
 }
 
+
+#content h3 {
+  color: #555;
+  padding-bottom: 1vh;
+  margin: 0 auto;
+}
+
 h1, h2 {
   font-family: 'Gabriela', serif;
   color: #fff;
@@ -46,9 +53,13 @@ h3 {
 }
 
 img {
-  max-width: 100%;
-  width: 100%;
+  max-width: 75vh;
+  width: auto;
   height: auto;
+}
+
+.img-size {
+  margin: 0 auto;
 }
 
 p {
